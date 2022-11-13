@@ -100,8 +100,8 @@ class _RandomWordsState extends State<RandomWords> {
               style: _biggerFont,
             ),
             trailing: Icon(
-              alreadySaved ? Icons.favorite : Icons.favorite_border,
-              color: alreadySaved ? Colors.red : null,
+              alreadySaved ? Icons.star : Icons.star_border,
+              color: alreadySaved ? Colors.amber : null,
               semanticLabel: alreadySaved ? 'Removed from saved' : 'Save',
             ),
             onTap: () {
